@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "2026-10-28.1",
+  "abi": "arm64-v8a",
+  "agent_commit": "e3d0046203aec542652345f35d7deefbe1273079",
+  "python": "3.14.10",
+  "built": "2026-10-28T00:47:45Z",
+  "layers": [
+    {
+      "id": "rootfs",
+      "target": "rootfs",
+      "abi": "arm64-v8a",
+      "url": "https://github.com/santoni-star/hermes-loader-bundles/releases/download/2026-10-28.1/rootfs-arm64-v8a.tar.xz",
+      "sha256": "b02fd24beb725ea3f57ace8e3859920d34327429ca1e50f849dfd57654d0d9ba",
+      "bytes": 95576508,
+      "unpacked": 0,
+      "compression": "xz"
+    },
+    {
+      "id": "agent",
+      "target": "agent",
+      "abi": "arm64-v8a",
+      "url": "https://github.com/santoni-star/hermes-loader-bundles/releases/download/2026-10-28.1/agent-arm64-v8a.tar.xz",
+      "sha256": "22b216bcf3a89638d76db4b8e22d90fef12b6e1b5836d7f1cc1f76aac1f90095",
+      "bytes": 260162096,
+      "unpacked": 0,
+      "compression": "xz"
+    }
+  ]
+}
